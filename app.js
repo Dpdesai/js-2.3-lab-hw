@@ -21,8 +21,7 @@ const greetings = [];
 // ADD CODE HERE
 
 for(let i=0; i<synonyms.length;i++){
-    greetings.push(synonyms[i]);
-    console.log("Have a "+synonyms[i]+" day!");
+    greetings.push("Have a " + synonyms[i] + " day!");
 }
 
 console.log(greetings);
@@ -35,7 +34,7 @@ console.log(greetings);
 // ADD CODE HERE
 
 for(let i=0; i<greetings.length;i++){
-    console.log("Have a "+greetings[i]+" day!");
+    console.log(greetings[i]);
 }
 
 
